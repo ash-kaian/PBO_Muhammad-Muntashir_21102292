@@ -28,6 +28,5 @@ public class Unguided {
         catch (InputMismatchException e) {
             System.out.println("Terjadi kesalahan: Input tidak valid. Harap masukkan bilangan bulat.");
         }
-
     }
 }
