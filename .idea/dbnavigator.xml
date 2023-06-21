@@ -13,7 +13,12 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="a305271d-d465-4f3f-872d-335e6d3f9a9d">
-      <console name="Connection" type="STANDARD" schema="mysql" session="Main" />
+      <console name="Connection" type="STANDARD" schema="dbdemo" session="Main"><![CDATA[USE dbdemo;
+CREATE TABLE tb_mahasiswa (
+    nim VARCHAR(10),
+    nama VARCHAR(64),
+    nilai INT
+);]]></console>
     </connection>
     <connection id="7f7e98b3-5fb3-453b-9aaf-5a5f013562f1">
       <console name="Connection 1" type="STANDARD" schema="mysql" session="Main" />
@@ -24,6 +29,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -607,5 +615,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>
